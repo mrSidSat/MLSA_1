@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+.topBar {
+  display: flex;
+  height: 60px;
+  background-color: #03045e;
+}
+.topBar > div {
+  flex: 1;
+  padding: 10px;
+  color: white;
+  margin-top: 5px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+}
+.top :nth-child(1) {
+  margin-left: 32px;
+}
+.topBar :nth-child(2) {
+  text-align: center;
+}
+.topBar :nth-child(3) {
+  text-align: right;
+  margin-right: 32px;
+}
+.slide {
+  display: flex;
+  background-color: #00d8ff;
+  height: 100%;
+  background-image: url("../pictures/react.png");
+  mix-blend-mode: normal;
+  background-repeat: no-repeat;
+  background-position: 750px 100px;
+}
+.slideOperator {
+  flex: 1;
+  display: flex;
+  font-size: large;
+  font-weight: 800;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.2;
+}
+.slideOperator:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.slideBody {
+  flex: 10;
+  margin: 40px;
+  height: 400px;
+  width: 800px;
+  background-color: white;
+}

@@ -1,0 +1,17 @@
+.counter_row {
+  display: flex;
+  height: 100px;
+}
+.counter_row > div {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  font-family: Roboto;
+}
+.demo1_message {
+  text-align: center;
+  font-size: large;
+  font-family: Roboto;
+}

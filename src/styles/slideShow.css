@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+.leftSide {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  background-image: url("../pictures/logo512.png");
+  mix-blend-mode: normal;
+  background-repeat: no-repeat;
+  background-position: 250px 100px;
+  margin: 5px;
+  background-color: white;
+  font-family: poppins;
+}
+.rightSide {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px;
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  background-image: url("../pictures/react.png");
+  mix-blend-mode: normal;
+  background-repeat: no-repeat;
+  background-position: -400px -450px;
+}
+.slideMain {
+  display: flex;
+  height: 100%;
+  background-color: #00d8ff;
+}
+.leftSide__q {
+  font-size: 40px;
+  font-family: "Parisienne", cursive;
+}
+.leftSide__question {
+  font-size: 35px;
+  font-family: Roboto;
+}

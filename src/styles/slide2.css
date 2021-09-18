@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap");
+.slide2__body {
+  display: flex;
+  height: 100%;
+  border: 1px solid black;
+}
+.slide2__image {
+  flex: 1;
+  margin: 5%;
+}
+.slide2_view {
+  top: 325px;
+  left: 200px;
+}
+.slide2_pointer {
+  position: absolute;
+  z-index: 10;
+  height: 50px;
+  width: 150px;
+  cursor: pointer;
+}
+.slide2_actions {
+  top: 170px;
+  left: 200px;
+}
+.slide2_reducer {
+  top: 250px;
+  left: 840px;
+}
+.slide2_dispatcher {
+  top: 170px;
+  left: 800px;
+  width: 240px;
+}
+.slide2_state {
+  top: 450px;
+  left: 840px;
+}
+.slide2_store {
+  top: 200px;
+  left: 1100px;
+  width: 60px;
+  height: 100px;
+}
+/*  */
+.modal {
+  padding: 2rem 2rem;
+  padding-top: 0;
+  border: 1px solid #eee;
+  width: max-content;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 20%;
+  background-color: white;
+  z-index: 20;
+  border: 6px solid black;
+  border-radius: 10px 0px 0px 0px;
+  font-family: "Poppins", sans-serif;
+  background-image: url("../pictures/react.png");
+  mix-blend-mode: normal;
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+}
